@@ -12,14 +12,14 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Mitul Golakiya",
-      "email": "me@mitul.me"
+      "name": "mltefive",
+      "email": "mltefive@gmail.com"
     }
   ],
   "require": {
     "php": "^8.0",
     "illuminate/support": "^9.0",
-    "laravel-russian/laravel-ui-adminlte": "^4.0"
+    "laravel-russian/laravel-ui-adminlte": "dev-master"
   },
   "autoload": {
     "psr-4": {
