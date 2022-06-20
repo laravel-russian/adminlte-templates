@@ -1,5 +1,5 @@
 <li class="nav-item">
-    <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$') }}" class="nav-link {{ Request::is('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$') ? 'active' : '' }}">
+    <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') }}" class="nav-link {{ Request::is('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$') ? 'active' : '' }}">
         <i class="nav-icon fas fa-home"></i>
         <p>$MODEL_NAME_PLURAL_HUMAN$</p>
     </a>
